@@ -1,4 +1,6 @@
-An 'Application Code Sample' - Provided as demonstration only - you are required to replace this with your own application.
+# Application_Deployment_Sample
+
+An 'Application Code Sample' - Provided for demonstration only - you are required to replace this with your own application before production deployment.
 
 There are 2 distinct code components to any deployment. These are:
 
@@ -8,6 +10,17 @@ There are 2 distinct code components to any deployment. These are:
 Use this Application Code Sample as a basic 'example' or demo application to push to your infrastructure so you can verify it is working.
 
 This application represents a fully prepared deployment ready application typically served from a web root directory (path: /var/www/.) Commonly these files are written in HTML and contain index.html as the starting point (/var/www/index.html).
+
+Contents:
+LICENSE - Apache License (for information only)
+README.md - This files (for information only)
+appspec.yml - Defines basic parameters for the application deployment - such as runas user (root), timeout for handling of sripts
+index.html - Starting point of application (see above)
+scripts - Folder containing scripts to handle deployment of application
+  install_dependencies - Installs dependencies into deployment (ie httpd, nginx, etc.)
+  start_server - Starts dependencies (ie httpd)
+  stop_server - Stops dependencies (ie httpd)
+
 
 Typically this application is served up by your web server daemon (such as Apache or NGINX) to visitors to your web site.
 
