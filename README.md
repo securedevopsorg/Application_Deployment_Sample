@@ -9,7 +9,7 @@ There are 2 distinct code components to any deployment. These are:
 
 Use this Application Code Sample as a basic 'example' or demo application to push to your infrastructure to verify it is working.
 
-This application represents a fully prepared deployment ready application typically served from a web root directory (path: /var/www/.) Commonly these files are written in HTML and contain index.html as the starting point !(/var/www/index.html)!.
+This application represents a fully prepared deployment ready application typically served from a web root directory (path: /var/www/.) Commonly these files are written in HTML and contain index.html as the starting point (/var/www/index.html).
 
 **Contents:**
 * LICENSE - Apache License (for information only)
