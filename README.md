@@ -16,6 +16,7 @@ This application represents a fully prepared deployment ready application typica
 * README.md - This files (for information only)
 * appspec.yml - Defines basic parameters for the application deployment - such as runas user (root), timeout for handling of sripts
 * index.html - Starting point of application (see above)
+* Application_Deployment_Sample.zip - A zipped copy of this application
 * scripts - Folder containing scripts to handle deployment steps for application
   * install_dependencies - Installs dependencies into deployment (ie httpd, nginx, etc.)
   * start_server - Starts dependencies (ie httpd)
